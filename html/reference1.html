@@ -1,0 +1,338 @@
+<!-- 
+    Chapter Summary :: HTML Attributes :: HTML attributes provide additional 
+                                            information about HTML elements.
+
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element -->
+
+
+<!-- 
+    Chapter Summary:: HTML STYLES :: The HTML style attribute is used 
+                                      to add styles to an element, such 
+                                      as color, font, size, and more.
+
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment -->
+
+<!-- 
+    HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text 
+    -->
+
+<!-- 
+HTML Quotation and Citation Elements
+Tag	Description
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
+-->
+
+
+<!-- CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file -->
+
+<!-- 
+If you wanna use the same style for multiple elements, define the style in a separate style sheet.
+and link it in the header of the html file. -->
+<!-- <link rel="stylesheet" href="styles.css"> -->
+
+<!-- HTML STYLES - cssChapter Summary
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border -->
+
+<!-- HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window -->
+
+<!-- Chapter Summary
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program -->
+
+<!-- Chapter Summary HTML Links - Create Bookmarks
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark -->
+
+
+<!-- Chapter Summary -- HTML Images
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+Use the CSS float property to let the image float to the left or to the right 
+***** Project was a simple image with text on the side using the style=float:right method
+      Rest of it was pretty much the HTML images syntax, The HTML <img> tag is used to embed an image in a web page.
+    Since images are inserted, the tag creates holding space and doesn't have a closing tag with
+    only attributes, and the tag is empty, it only needs src and alt attributes
+    talking about absolute and relative, relative is in your folder cuz its relative to your project
+    while absolute links are full URL 
+    use the style attribute to specify width and height instead of the width height attribute
+    You can also include gifs, use images as links, and image floating, 
+    -->
+
+<!-- The <map> tag is used to define an image map. An image map is an image with clickable areas.
+    The required name attribute of the <map> element is associated with the <img>'s usemap attribute and creates a relationship between the image and the map.
+    The <map> element contains a number of <area> elements, that defines the clickable areas in the image map. 
+****Hella dope, this was so much fun to play with, practically lets you make a map, and you can click it, I
+    Could easily see a zoom in function working. I wonder what html is built on-->
+<!-- 
+    Chapter Summary -- Favicon
+    Use the HTML <link> element to insert a favicon 
+****Pretty cool, the favicon is the picture in the tab that displays an image, got a fox atm. 
+    Only firefox supports gifs while the rest are just favicon.iso, also it seems like im using
+    a relative link for my favicon since i just use their code and didn't download anything
+-->
+
+<!-- HTML Table Tags
+    Tag	Description
+    <table>	Defines a table
+    <th>	Defines a header cell in a table
+    <tr>	Defines a row in a table
+    <td>	Defines a cell in a table
+    <caption>	Defines a table caption
+    <colgroup>	Specifies a group of one or more columns in a table for formatting
+    <col>	Specifies column properties for each column within a <colgroup> element
+    <thead>	Groups the header content in a table
+    <tbody>	Groups the body content in a table
+    <tfoot>	Groups the footer content in a table 
+**** Pretty cool, you can make a table in html and use ccs to change any details 
+    Ran through and created my own table that list the top tech companies with their
+    yearly revenue and market cap. Pretty cool tbh, havent worked with some of these tags yet-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Abdalla's Website</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoMnr/6DJ6/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS4fr/0uH6/9Lh+v/S4fr/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgyev/S4fr/0uH6/9OP0v/YFNd/0uH6/9Lh+v/oMnr/wAAAAAAAAAAAAAAAAAAAAAAAAAAoMnrd6DJ6/+gyev/oMnr/0uH6/9Lh+v/Tj9L/2BTXf9Lh+v/S4fr/6DJ6/+gyev/oMnr/6DJ63cAAAAAoMnr/6DJ6/+gyev/oMnr/6DJ6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/+gyev/oMnr/6DJ6/+gyev/oMnr/zdk0v83ZNL/N2TS/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/8AAAAAN2TS/zdk0v9Lh+v/Tj9L/2BTXf9Lh+v/S4fr/0uH6/9Lh+v/Tj9L/11PWv9Lh+v/S4fr/0uH6/8AAAAAAAAAADdk0v83ZNL/N2TS/04/S///////S4fr/0uH6/9Lh+v/S4fr//////9gU13/S4fr/0uH6/9Lh+v/AAAAAAAAAAAAAAAAN2TS/zdk0v9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/AAAAAAAAAAAAAAAAAAAAADdk0v83ZNL/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/wAAAAAAAAAAAAAAAAAAAAA3ZNL5N2TS/zdk0v9Lh+v/S4fr/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/zdk0v8AAAAAAAAAAAAAAAAAAAAANFG//zJGtP83ZNL/OmnW/0uH6/9Lh+v/S4fr/0uH6/9Lh+v/S4fr/zJGtP80Ub//AAAAAAAAAAAAAAAAAAAAADJGtP8yRrT/Mka0/zdk0v83ZNL/S4fr/0uH6/9Lh+v/N2TS/zJGtP8yRrT/Mka0/wAAAAAAAAAAAAAAAAAAAAAyRrT/Mka0/zdk0v83ZNL/AAAAAAAAAAAAAAAAAAAAADdk0v83ZNL/Mka0/zJGtP8AAAAAAAAAAAAAAAAAAAAAMka0/zdk0v83ZNLMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2TS/zdk0v8yRrT/AAAAAAAAAAAAAAAAAAAAADdk0v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2TS/wAAAAAAAAAA/n8AAPw/AADwDwAAwAMAAAAAAAAAAAAAgAEAAIABAADAAwAAwAMAAMADAADAAwAAwAMAAMPDAADH4wAA3/sAAA==" rel="icon" type="image/x-icon" />
+</head>
+
+
+<!-- Simple repeated background
+<style>
+    body {
+        background-color: cpowderblue;
+        background-image: url(data:image/jpeg;base64,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);
+    } -->
+
+<style>
+body {
+    background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1    {
+    color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    border: 2px solid rgb(76, 19, 182)
+}
+p    {
+    color: black;
+    font-family: courier;
+    font-size: 160%;
+    border: 2px solid powderblue;
+    }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  /* border-color: #cf2525;  */
+  /* border: 1px solid #dddddd;  */
+  text-align: middle;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #2f9c34;
+}
+tr:nth-child(odd){
+    background-color: #9C2F97;
+}
+</style>
+
+<!-- <body style="background-color:powderblue;"> -->
+
+<h1 style="text-align:center" style="font-size: 100px;" title="This is a tooltip and its lit haha" style="color:blanchedalmond;">Welcome</h1>
+<a href="#P">Jump to Images/Gifs</a>
+<a href="https://www.linkedin.com/in/matthew-reynolds-tejeda/">Jump to matthew-reynolds-tejeda Linkedin</a>
+<a href="https://www.linkedin.com/in/abdalla-a-07973b188/">Jump to abdalla alhag Linkedin</a>
+<hr>
+<p style="color:white">Hello, This is Abdalla Alhag's personal website.<br> Feel free to look around
+<br>Contact me if you have any questions xDD.</p>
+<hr>
+<h1>The map and area elements</h1>
+
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="https://www.w3schools.com/tags/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer" target="_blank">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Telephone" target="_blank">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee" target="_blank">
+</map>
+<p>
+    <img src="https://cdn.shopify.com/s/files/1/1186/5476/products/chefs-knife-blue-191015-shoppage.jpg?v=1618232800&width=1200" alt="kitchen sword"
+    style="float:right;width: 200px; height: 115px;">
+    A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+
+<h1>Give me all Your <ins>Money</ins></h>
+<h3>Give me <del>all</del> Your Money</h3>
+<h4>Give <mark>me</mark> all Your Money</h4>
+<h5 style="border:2px solid rgb(130, 238, 135);">Give me all Your Money</h5>
+<h6>Give me all Your Money</h6>
+</hr>
+
+
+<h6>Everyday </h6>
+<pre style="color:seagreen;">
+    Everyday I spend my time.
+ 
+    Drinking wine, feeling fine.
+ 
+    Waiting here to find the sign.
+
+    Yes I am        -- A$AP Rocky            
+ </pre>
+
+ <h2 id="P">Images/Gifs</h2>
+<a href="https://www.linkedin.com/in/matthew-reynolds-tejeda/" target="_blank">This is Matthew's linkedin account<br></a>
+<hr>
+
+
+
+<h2 id="P">Images/Gifs</h2>
+
+<!-- Can't seem to really get this to work yet, only shows the first two images and switches over when you resize the screen to less than 30% -->
+
+<picture>
+    <source media="(min-width: 600px)" srcset="https://as01.epimg.net/meristation_en/imagenes/2022/02/18/news/1645143158_918055_1645145092_noticia_normal.jpg">
+    <source media="(min-width: 465px)" srcset="https://as01.epimg.net/meristation/imagenes/2022/06/27/noticias/1656317650_318531_1656319270_noticia_normal.jpg">
+    <img src="https://static.wikia.nocookie.net/fcs-vs-battle/images/9/92/Anime_Cast_Wallpaper.jpg/revision/latest?cb=20200725111704" style="width:auto;">
+  </picture>
+  
+  <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+  The browser looks for the first source element where the media query matches the user's current viewport width,
+  and fetches the image specified in the srcset attribute.</p>
+  
+  <p>The img element is required as the last child tag of the picture declaration block.
+  The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+  </p>
+  
+<img src="https://images.squarespace-cdn.com/content/v1/5b23e822f79392038cbd486c/1630875170499-6VLQTHHE1MINAIAW9TAE/Top+26+Action+Anime+With+Epic+Fights"
+    alt="Random Person" title="absolute link" style = "width: 480px; height:266px">
+<img src="https://media.tenor.com/J3go3QekrXAAAAAd/one-piece.gif" alt="Luffy" 
+    title="Absolute Link" style= "width:640px; height:360px">
+<img src="https://media.tenor.com/BWk4_NBCmtgAAAAC/one-piece.gif" alt="One piece" 
+    title="Absolute Link" style = "width: 498px; height: 280px">
+<img src="C:\Users\alhag\OneDrive\Desktop\code\WebDev\W3\img\abdalla_lander.PNG" 
+    alt="/img/Ryan Burden" title="relative Link" style= "width:750px; height:1334;">
+
+<a href="https://www.reddit.com/" target="_blank">
+<img src="https://i.pinimg.com/originals/ed/29/74/ed29741e2d0fb0ae214a333c69fd9b2e.gif" 
+    alt="Gif of Zoro"title="Go to reddit" style="width: 498px; height: 306px;">
+</a>
+
+<h2>HTML Table Representing the Top 10 Tech Companies in the U.S.</h2>
+
+<table style="width: 100%;">
+  <tr>
+    <th>Company</th>
+    <th>Revenue</th>
+    <th>Market Value</th>
+  </tr>
+  <tr>
+    <td>1. Apple Inc.</td>
+    <td>$365.8 billion</td>
+    <td>$2.8 trillion</td>
+  </tr>
+  <tr>
+    <td>2. Alphabet</td>
+    <td>$257.6 billion</td>
+    <td>$1.8 trillion</td>
+  </tr>
+  <tr>
+    <td>3. Microsoft</td>
+    <td>$168.1 billion</td>
+    <td>$2.3 trillion</td>
+  </tr>
+  <tr>
+    <td>4. Meta</td>
+    <td>$117.9 billions </td>
+    <td>$605.3 billion</td>
+  </tr>
+  <tr>
+    <td>5. Dell Technologies</td>
+    <td>$107 billion</td>
+    <td>$38.1 billion</td>
+  </tr>
+  <tr>
+    <td>6. Intel</td>
+    <td>$79 billion</td>
+    <td>$202.67 billion</td>
+  </tr>
+</table>
+
+<h2>Additional Links as buttons</h2>
+<p>Pick a button. Hmm I cant seem to get this button link to open in the new tab.</p>
+<button onclick="document.location='https://stackoverflow.com/'" formtarget="_blank">Reddit</button>
+
+<a href="https://www.youtube.com/" target="_blank">
+    <img src="https://media.tenor.com/VoZHtRRdCfIAAAAM/ronnie-coleman.gif" 
+    alt="Ronnie Coleman" style="width: 220px; height: 265px;">
+</a>
+
+</body>
+</html>
